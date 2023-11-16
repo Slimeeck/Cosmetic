@@ -1,0 +1,112 @@
+/* Загальні стилі */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f1e5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8bbb1;
+    color: #773d34;
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #773d34;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #fcb9a3; /* Рожевий колір при наведенні */
+}
+
+main {
+    padding: 20px;
+}
+
+/* Стилі для розділів */
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    transform-origin: top;
+    position: relative;
+}
+
+.section img {
+    max-width: 50%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.section .flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.section .text-container {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Стилі для кнопок */
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-list button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4d6592;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.menu-list button:hover {
+    background-color: #324168;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #f8bbb1;
+    color: #773d34;
+    padding: 40px;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
